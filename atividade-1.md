@@ -8,11 +8,11 @@
 
 - [ ] a) Modelo físico, pois já define os tipos de dados exatos, índices e estruturas de armazenamento específicas de um SGBD
 - [ ] b) Modelo lógico
-- [ ] c) Modelo conceitual, sem se preocupar com tabelas ou SGBD
+- [x] c) Modelo conceitual, sem se preocupar com tabelas ou SGBD
 - [ ] d) Nenhum modelo é necessário nessa etapa: as tabelas podem ser criadas diretamente, sem qualquer modelagem prévia
 - [ ] e) Modelo físico, por ser sempre a primeira etapa do projeto
 
-**Justificativa:** <escreva aqui sua justificativa>
+**Justificativa:** <escreva aqui sua justificativa>O modelo conceitual é usado no começo do projeto para mostrar as entidades e os relacionamentos do banco, sem precisar definir ainda as tabelas ou o programa que será usado.
 
 **2.** Depois do modelo conceitual, a equipe traduz as entidades e relacionamentos em tabelas, colunas e chaves, mas ainda sem se prender a tipos de dados exatos de um SGBD específico (isso viria só na etapa seguinte). Qual modelo corresponde a essa tradução?
 
@@ -20,6 +20,6 @@
 - [ ] b) Modelo conceitual
 - [ ] c) Modelo conceitual, pois é a etapa que define os tipos de dados exatos, os índices e as estruturas físicas do banco
 - [ ] d) Não existe diferença entre modelo lógico e modelo físico
-- [ ] e) Modelo lógico, pois traduz o modelo conceitual em tabelas, colunas e chaves, ainda sem se prender aos tipos de dados exatos de um SGBD específico
+- [x] e) Modelo lógico, pois traduz o modelo conceitual em tabelas, colunas e chaves, ainda sem se prender aos tipos de dados exatos de um SGBD específico
 
-**Justificativa:** <escreva aqui sua justificativa>
+**Justificativa:** <escreva aqui sua justificativa>O modelo lógico pega o modelo conceitual e transforma em tabelas, colunas e chaves. Nessa etapa ainda não é necessário definir os tipos de dados específicos do SGBD.
